@@ -1,0 +1,371 @@
+
+
+body {
+    margin: 0;
+    background-color: #f8f3eb;
+    color: #3b2a22;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.navbar {
+    background-color: #f8f3eb;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4a2c20;
+}
+
+.navbar-brand:hover {
+    color: #7a5548;
+}
+
+.nav-link {
+    color: #4a2c20;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #a67c68;
+}
+
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-small {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #a67c68;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 64px;
+    line-height: 1.1;
+    color: #3b2a22;
+    margin-bottom: 25px;
+}
+
+.hero-text {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #6f5a50;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #4a2c20;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 0;
+}
+
+.hero-btn:hover {
+    background-color: #6b4536;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.menu-section {
+    padding: 60px 20px;
+    background-color: #efe6da;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-header p {
+    color: #a67c68;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.menu-header h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #3b2a22;
+}
+
+
+
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-card {
+    background-color: #f8f3eb;
+    padding: 30px;
+    border: 1px solid #ddcfc1;
+}
+
+.menu-card h3 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.menu-card p {
+    color: #6f5a50;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.menu-card span {
+    font-weight: bold;
+    color: #4a2c20;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .menu-header h2 {
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+    .menu-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .menu-section {
+        padding: 90px 40px;
+    }
+
+    .menu-header h2 {
+        font-size: 48px;
+    }
+
+}
+
+
+
+
+
+
+
+.popular {
+    background-color: #f8f3eb;
+}
+
+.section-label {
+    color: #a67c68;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.popular h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    color: #3b2a22;
+}
+
+.popular-description {
+    color: #6f5a50;
+}
+
+.popular-card {
+    border: 1px solid #ddcfc1;
+    border-radius: 0;
+    background-color: #fffaf4;
+}
+
+.popular-card .card-body {
+    padding: 35px;
+}
+
+.drink-number {
+    display: block;
+    color: #a67c68;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.popular-card h3 {
+    font-family: Georgia, serif;
+    color: #3b2a22;
+    margin-bottom: 15px;
+}
+
+.popular-card .card-text {
+    color: #6f5a50;
+    line-height: 1.7;
+}
+
+.drink-price {
+    color: #4a2c20;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.about {
+    background-color: #3b2a22;
+    color: white;
+}
+
+.about h2 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    color: #e6d8ce;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.about-extra {
+    color: #cdb9ab;
+    line-height: 1.8;
+}
+
+.hours-box {
+    background-color: #f8f3eb;
+    color: #3b2a22;
+    padding: 35px;
+}
+
+.hours-box h3 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddcfc1;
+}
+
+.hours-row span:last-child {
+    white-space: nowrap;
+}
+
+.address {
+    color: #6f5a50;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.faq {
+    background-color: #efe6da;
+}
+
+.faq h2 {
+    font-family: Georgia, serif;
+    color: #3b2a22;
+}
+
+.faq-description {
+    color: #6f5a50;
+}
+
+.accordion {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #cdb9ab;
+    border-radius: 0 !important;
+    background-color: transparent;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: #3b2a22;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    padding: 22px 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: #4a2c20;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    color: #6f5a50;
+    line-height: 1.7;
+    padding: 5px 10px 25px;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #2b1d17;
+    color: #d8c7bb;
+}
+
+.footer-brand {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: white;
+}
